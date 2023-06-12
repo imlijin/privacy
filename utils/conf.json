@@ -1,0 +1,46 @@
+{
+	"model_name" : "vgg16",
+	
+	"no_models" : 10,
+	
+	"type" : "cifar",
+	
+	"global_epochs" : 10,
+	
+	"local_epochs" : 2,
+	
+	"k" : 5,
+	
+	"batch_size" : 32,
+
+	"lr" : 0.01,
+
+	"momentum" : 0.0001,
+	
+	"lambda" : 0.2,
+
+	"dp" : false,
+	
+	"mechanism" : "laplace",
+	
+	"C" : 1000,
+
+	"sigma" : 0.001,
+
+	"eps" : 1,
+ 
+	"delta" : 1,
+
+	
+	"q" : 0.1,
+	
+	"W" : 1,
+
+	"sparsity" : false,
+
+	"prop" : 0.6,
+
+	"rate" : 0.95,
+
+	"shap" : false
+}
